@@ -25,7 +25,7 @@ sudo chmod -R 755 /var/www/html
 
 **Configure Nginx (Optional)**
 sudo nano /etc/nginx/sites-available/html_app
-Add the following:
+**Add the following:**
 server {
     listen 80;
     server_name _;
